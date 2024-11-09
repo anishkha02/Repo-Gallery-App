@@ -1,16 +1,23 @@
-# repo_gallery_app
+# Repo_Gallery_App
 
-A new Flutter project.
+A Flutter app that displays a list of public repositories and a grid of images, featuring bookmarking, full-screen view, and network caching. Built with the GitHub and Unsplash APIs.
 
-## Getting Started
+Features:
 
-This project is a starting point for a Flutter application.
+-Splash Screen: Welcome screen on app launch.
 
-A few resources to get you started if this is your first Flutter project:
+-Home Screen: Two bottom tabs:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+-Repo Tab: Lists public GitHub repositories with details like description, comments, created, and updated dates.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-Gallery Tab: Displays images from Unsplash in a grid layout.
+
+Click Actions:
+
+-Long-press a repo to view owner info; tap to view repo files.
+
+-Tap an image to open in full-screen with zoom.
+
+-Network Caching: Initial load from the network, with cached data for offline use and background refresh.
+
+-Bookmarking: Bookmark images for later access, visible in a staggered layout on the Bookmark screen.
